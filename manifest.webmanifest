@@ -1,0 +1,12 @@
+{
+    "lang": "en",
+    "dir": "ltr",
+    "name": "Geo Cashing",
+    "description": "Geo Cashing",
+    "short_name": "Geo Cashing",
+    "scope": "/",
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#1e90ff"
+}
