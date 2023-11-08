@@ -17,6 +17,7 @@
 
     <meta name="theme-color" content="#000000" />
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="css/base.css">
 </head>
 
 <body>
@@ -27,11 +28,14 @@
 
     <main class="w3-container">
         <!-- <div id="map"></div> -->
-        <video class="w3-card w3-display-middle" id="myVideo" autoplay></video>
+        <div id="camera">
+            <video class="w3-card w3-display-middle" id="myVideo" autoplay></video>
+        </div>
         
         <canvas id="myCanvas" class="w3-panel w3-display-middle"></canvas>
         
-        <button class="w3-circle w3-badge w3-white w3-display-bottommiddle" id="shootBtn"></button>
+        <img class="w3-circle w3-badge w3-white w3-display-bottommiddle" id="shootBtn" src="img/camera.png"/>
+        <img class="w3-circle w3-badge w3-white w3-display-topright" id="switchCamera" src="https://img.icons8.com/ios/50/switch-camera.png"/>
         <button class="w3-btn" id="cameraBtn">Camera</button>
         <button class="w3-btn" id="btnReturn">Retour Camera</button>
 

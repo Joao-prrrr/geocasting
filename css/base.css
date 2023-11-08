@@ -1,11 +1,12 @@
-#myVideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    z-index: 1;
+html * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    width: 100vw;
+    height: 100vh;
 }
 
 #btnReturn {
@@ -24,4 +25,16 @@
 
 #shootBtn {
     z-index: 1;
+    width: 20%;
+    height: auto;
+}
+
+canvas {
+    height: 70%;
+    width: auto;
+}
+
+video {
+    width: 100vw;
+    height: 100vh;
 }
